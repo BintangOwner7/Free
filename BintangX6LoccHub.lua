@@ -11,7 +11,9 @@ local DISCORD_LINK = "https://discord.gg/GANTI_LINK"
 
 local TOGGLE_KEY = Enum.KeyCode.RightShift
 local LOGO_FILE = "BintangX6LoccHub_logo.jpg"
-local LOGO_BASE64 = "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"
+local LOGO_BASE64 = "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"
+local DISCORD_LOGO_FILE = "BintangX6LoccHub_discord.jpg"
+local DISCORD_LOGO_BASE64 = "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"
 local BG_VIDEO_FILE = "BintangX6LoccHub/bg.webm"
 
 -- Re-execution guard.
@@ -36,16 +38,16 @@ local Hub = { flags = flags }
 
 -- Theme (crimson).
 local colors = {
-	window = Color3.fromRGB(6, 10, 16),
-	row = Color3.fromRGB(13, 31, 44),
-	line = Color3.fromRGB(15, 37, 53),
-	border = Color3.fromRGB(18, 58, 82),
-	off = Color3.fromRGB(18, 35, 48),
-	accent = Color3.fromRGB(0, 184, 255),
-	text = Color3.fromRGB(234, 244, 255),
-	bright = Color3.fromRGB(228, 246, 255),
-	muted = Color3.fromRGB(127, 166, 189),
-	dim = Color3.fromRGB(93, 138, 163),
+	window = Color3.fromRGB(10, 6, 16),
+	row = Color3.fromRGB(26, 15, 41),
+	line = Color3.fromRGB(35, 20, 54),
+	border = Color3.fromRGB(63, 29, 102),
+	off = Color3.fromRGB(38, 24, 56),
+	accent = Color3.fromRGB(150, 60, 255),
+	text = Color3.fromRGB(240, 234, 250),
+	bright = Color3.fromRGB(235, 220, 255),
+	muted = Color3.fromRGB(165, 142, 196),
+	dim = Color3.fromRGB(120, 100, 150),
 }
 
 local palette = {
@@ -101,6 +103,22 @@ end
 
 local logoAsset = loadLogo()
 
+-- Write the Discord icon to disk once, the same way as the hub logo.
+local function loadDiscordLogo()
+	if not (writefile and getcustomasset) then
+		return nil
+	end
+
+	local ok, asset = pcall(function()
+		writefile(DISCORD_LOGO_FILE, decodeBase64(DISCORD_LOGO_BASE64))
+		return getcustomasset(DISCORD_LOGO_FILE)
+	end)
+
+	return ok and asset or nil
+end
+
+local discordLogoAsset = loadDiscordLogo()
+
 -- Create an instance with properties in one call.
 local function create(className, properties, parent)
 	local instance = Instance.new(className)
@@ -116,7 +134,7 @@ local function round(instance, radius)
 end
 
 local function stroke(instance, color, thickness)
-	create("UIStroke", { Color = color, Thickness = thickness or 1 }, instance)
+	return create("UIStroke", { Color = color, Thickness = thickness or 1 }, instance)
 end
 
 -- Fire a flag change and its callback.
@@ -173,7 +191,22 @@ local window = create("Frame", {
 	ClipsDescendants = true,
 }, gui)
 round(window, 12)
-stroke(window, colors.border, 1.5)
+local windowGlow = stroke(window, colors.border, 1.5)
+
+-- A slow, continuous breathing glow around the window, logos and float button.
+local function applyGlow(uiStroke, minThickness, maxThickness, minTransparency, maxTransparency, duration)
+	uiStroke.Color = colors.accent
+	uiStroke.Thickness = minThickness
+	uiStroke.Transparency = maxTransparency
+
+	local info = TweenInfo.new(duration, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true)
+	tweenService:Create(uiStroke, info, {
+		Thickness = maxThickness,
+		Transparency = minTransparency,
+	}):Play()
+end
+
+applyGlow(windowGlow, 1.5, 3, 0.25, 0.65, 2.2)
 
 -- Background video layer with a dark overlay so text stays readable.
 local videoEnabled, videoReady = true, false
@@ -242,7 +275,8 @@ end
 local sidebar = create("Frame", { Size = UDim2.new(0, 150, 1, 0), BackgroundTransparency = 1 }, window)
 create("Frame", { Size = UDim2.new(0, 1, 1, 0), Position = UDim2.new(1, -1, 0, 0), BackgroundColor3 = colors.line, BorderSizePixel = 0 }, sidebar)
 
-local brandLogo = createLogo(sidebar, 22, 6)
+local brandLogo = createLogo(sidebar, 22, 11)
+applyGlow(stroke(brandLogo, colors.accent, 1), 1, 2, 0.2, 0.6, 2.2)
 brandLogo.Position = UDim2.fromOffset(8, 8)
 
 create("TextLabel", {
@@ -381,7 +415,8 @@ local floatButton = create("ImageButton", {
 	BorderSizePixel = 0,
 	Image = logoAsset or "",
 }, gui)
-round(floatButton, 10)
+round(floatButton, 19)
+applyGlow(stroke(floatButton, colors.accent, 1), 1, 2, 0.2, 0.6, 2.2)
 stroke(floatButton, colors.border, 1.5)
 floatButton.MouseButton1Click:Connect(function()
 	setWindowVisible(not window.Visible)
@@ -829,13 +864,16 @@ local tabs = {
 			card("Camera", {
 				toggle("Max Zoom"), toggle("Killer Radar"), toggle("Camera FOV"),
 				slider("FOV Value", 40, 120, 90),
-				toggle("Third Person (Killer)"), toggle("DBD Camera"),
-				slider("DBD Camera Distance", 1, 10, 3),
+				toggle("DBD Camera"),
+				slider("DBD Camera Distance", 1, 20, 12.5, 0.5),
+				slider("DBD Smoothness", 0.05, 1, 0.2, 0.05),
+				slider("DBD Height", 0, 6, 2.5, 0.25),
+				slider("DBD Shoulder Offset", -5, 5, 1.5, 0.25),
 				slider("Custom Scale", 1, 5, 1),
 			}),
 			card("Fake Perks", {
 				toggle("Fake Quick Recovery"), toggle("Fake Perfect Landing"),
-				toggle("Fake Flowstate"), toggle("Fake Adrenaline Rush"),
+				toggle("Fake Flowstate"),
 				slider("Perks Cooldown (sec)", 1, 60, 10),
 			}),
 		},
@@ -901,6 +939,11 @@ local tabs = {
 				colorPick("Silent FOV Color", Color3.fromRGB(108, 92, 231)),
 				slider("Silent FOV Transparency", 0, 1, 0.5, 0.05),
 				toggle("Show Tracker"),
+			}),
+			card("Aim Lock (Dash Hidden)", {
+				toggle("Dash Lock"),
+				slider("Dash Lock Range", 10, 300, 100, 5),
+				slider("Dash Lock Duration", 0.5, 5, 2, 0.5),
 			}),
 			card("Silent Aim Flask (Cure)", { toggle("Silent Aim Flask (Cure)"), toggle("Enable Laser") }),
 		},
@@ -1094,7 +1137,8 @@ local function buildInfoPage(page)
 		SortOrder = layoutOrder,
 	}, infoCard)
 
-	local infoLogo = createLogo(infoCard, 56, 14)
+	local infoLogo = createLogo(infoCard, 56, 28)
+	applyGlow(stroke(infoLogo, colors.accent, 1.5), 1.5, 3, 0.15, 0.55, 2.2)
 	infoLogo.LayoutOrder = 1
 
 	create("TextLabel", {
@@ -1107,18 +1151,53 @@ local function buildInfoPage(page)
 		Text = "SELAMAT BERMAIN",
 	}, infoCard)
 
-	local copyButton = create("TextButton", {
+	local copyButtonFrame = create("Frame", {
 		LayoutOrder = 3,
 		Size = UDim2.fromOffset(210, 32),
 		BackgroundColor3 = colors.row,
-		AutoButtonColor = false,
+	}, infoCard)
+	round(copyButtonFrame, 6)
+	stroke(copyButtonFrame, colors.line)
+
+	local copyButtonRow = create("Frame", {
+		Size = UDim2.fromScale(1, 1),
+		BackgroundTransparency = 1,
+	}, copyButtonFrame)
+	create("UIListLayout", {
+		FillDirection = Enum.FillDirection.Horizontal,
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
+		VerticalAlignment = Enum.VerticalAlignment.Center,
+		Padding = UDim.new(0, 7),
+		SortOrder = layoutOrder,
+	}, copyButtonRow)
+
+	if discordLogoAsset then
+		local discordIcon = create("ImageLabel", {
+			LayoutOrder = 1,
+			Size = UDim2.fromOffset(16, 16),
+			BackgroundTransparency = 1,
+			Image = discordLogoAsset,
+			ScaleType = Enum.ScaleType.Crop,
+		}, copyButtonRow)
+		round(discordIcon, 5)
+	end
+
+	create("TextLabel", {
+		LayoutOrder = 2,
+		Size = UDim2.fromOffset(0, 32),
+		AutomaticSize = Enum.AutomaticSize.X,
+		BackgroundTransparency = 1,
 		Font = Enum.Font.GothamBold,
 		TextSize = 12,
 		TextColor3 = colors.bright,
 		Text = "COPY LINK DC",
-	}, infoCard)
-	round(copyButton, 6)
-	stroke(copyButton, colors.line)
+	}, copyButtonRow)
+
+	local copyButton = create("TextButton", {
+		Size = UDim2.fromScale(1, 1),
+		BackgroundTransparency = 1,
+		Text = "",
+	}, copyButtonFrame)
 
 	local feedback = create("TextLabel", {
 		LayoutOrder = 4,
@@ -1702,6 +1781,238 @@ local function setupFeatures()
 end
 
 setupFeatures()
+
+-- CAMERA DBD. Your logic, connected to the Exclusive tab's Camera card.
+local function setupCameraDBD()
+	local runService = game:GetService("RunService")
+
+	table.insert(connections, runService.RenderStepped:Connect(function()
+		local camera = workspace.CurrentCamera
+		if not camera then
+			return
+		end
+
+		local character = localPlayer.Character
+		local root = character and character:FindFirstChild("HumanoidRootPart")
+
+		if flags["Exclusive.DBD Camera"] and root then
+			if camera.CameraType ~= Enum.CameraType.Scriptable then
+				camera.CameraType = Enum.CameraType.Scriptable
+			end
+
+			local targetPosition = root.Position
+				+ (root.CFrame.LookVector * -flags["Exclusive.DBD Camera Distance"])
+				+ (root.CFrame.RightVector * flags["Exclusive.DBD Shoulder Offset"])
+				+ Vector3.new(0, flags["Exclusive.DBD Height"], 0)
+
+			local targetCFrame = CFrame.lookAt(targetPosition, root.Position + Vector3.new(0, 1, 0))
+			camera.CFrame = camera.CFrame:Lerp(targetCFrame, flags["Exclusive.DBD Smoothness"])
+		elseif camera.CameraType == Enum.CameraType.Scriptable then
+			camera.CameraType = Enum.CameraType.Custom
+		end
+	end))
+
+	local baseDestroy = Hub.destroy
+
+	function Hub.destroy()
+		if workspace.CurrentCamera then
+			workspace.CurrentCamera.CameraType = Enum.CameraType.Custom
+		end
+		baseDestroy()
+	end
+end
+
+setupCameraDBD()
+
+-- FAKE PERKS. Your logic, connected to the Exclusive tab's Fake Perks card.
+local function setupFakePerks()
+	local state = {
+		boostActive = false, plBoostActive = false, fsOnCooldown = false,
+		lastQR = 0, lastPL = 0, lastFS = 0, conns = {},
+	}
+
+	local function isSlowVaulting(character)
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		local animator = humanoid and humanoid:FindFirstChildOfClass("Animator")
+		if not animator then
+			return false
+		end
+
+		for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
+			if track.Animation and string.find(tostring(track.Animation.AnimationId), "126081405469607") then
+				return true
+			end
+		end
+		return false
+	end
+
+	local function setupForCharacter(character)
+		if not character then
+			return
+		end
+
+		for _, conn in pairs(state.conns) do
+			conn:Disconnect()
+		end
+		state.conns = {}
+
+		table.insert(state.conns, character:GetAttributeChangedSignal("isvaulting"):Connect(function()
+			if not flags["Exclusive.Fake Quick Recovery"] then
+				return
+			end
+
+			if character:GetAttribute("isvaulting") ~= true then
+				return
+			end
+
+			task.spawn(function()
+				task.wait(0.05)
+				local slow = isSlowVaulting(character)
+				if not slow then
+					task.wait(0.05)
+					slow = isSlowVaulting(character)
+				end
+
+				if not slow and character:GetAttribute("isvaulting") == true then
+					if state.boostActive then
+						return
+					end
+					if (tick() - state.lastQR) < flags["Exclusive.Perks Cooldown (sec)"] then
+						return
+					end
+
+					state.boostActive = true
+					state.lastQR = tick()
+					local startTime = tick()
+
+					task.spawn(function()
+						while flags["Exclusive.Fake Quick Recovery"] and (tick() - startTime) < 3 do
+							if character.Parent then
+								character:SetAttribute("speedboost", 1.4)
+							end
+							task.wait()
+						end
+						if character.Parent then
+							character:SetAttribute("speedboost", 1)
+						end
+						state.boostActive = false
+					end)
+				end
+			end)
+		end))
+
+		table.insert(state.conns, character:GetAttributeChangedSignal("speedboost"):Connect(function()
+			if not flags["Exclusive.Fake Perfect Landing"] then
+				return
+			end
+
+			if character:GetAttribute("speedboost") ~= 0.625 then
+				return
+			end
+			if state.plBoostActive then
+				return
+			end
+			if (tick() - state.lastPL) < flags["Exclusive.Perks Cooldown (sec)"] then
+				return
+			end
+
+			state.plBoostActive = true
+			state.lastPL = tick()
+			local startTime = tick()
+
+			task.spawn(function()
+				while flags["Exclusive.Fake Perfect Landing"] and (tick() - startTime) < 3 do
+					if character.Parent then
+						character:SetAttribute("speedboost", 1.4)
+					end
+					task.wait()
+				end
+				if character.Parent then
+					character:SetAttribute("speedboost", 1)
+				end
+				state.plBoostActive = false
+			end)
+		end))
+
+		local humanoid = character:WaitForChild("Humanoid", 3)
+		local animator = humanoid and humanoid:WaitForChild("Animator", 3)
+
+		if animator then
+			table.insert(state.conns, animator.AnimationPlayed:Connect(function(track)
+				if not flags["Exclusive.Fake Flowstate"] then
+					return
+				end
+
+				if not (track.Animation and string.find(tostring(track.Animation.AnimationId), "136962284480779")) then
+					return
+				end
+
+				local stoppedConn
+				stoppedConn = track.Stopped:Connect(function()
+					if stoppedConn then
+						stoppedConn:Disconnect()
+					end
+
+					state.lastFS = tick()
+					state.fsOnCooldown = true
+					if character.Parent then
+						character:SetAttribute("Flowstate", false)
+					end
+
+					task.delay(flags["Exclusive.Perks Cooldown (sec)"], function()
+						state.fsOnCooldown = false
+						if flags["Exclusive.Fake Flowstate"] and character.Parent then
+							character:SetAttribute("Flowstate", true)
+						end
+					end)
+				end)
+			end))
+		end
+
+		table.insert(state.conns, character:GetAttributeChangedSignal("Flowstate"):Connect(function()
+			if not flags["Exclusive.Fake Flowstate"] then
+				return
+			end
+
+			local current = character:GetAttribute("Flowstate")
+			local cooldownKey = flags["Exclusive.Perks Cooldown (sec)"]
+
+			if current == true then
+				if state.fsOnCooldown or (tick() - state.lastFS) < cooldownKey then
+					character:SetAttribute("Flowstate", false)
+				end
+			elseif current == false then
+				if not state.fsOnCooldown and (tick() - state.lastFS) >= cooldownKey then
+					character:SetAttribute("Flowstate", true)
+				end
+			end
+		end))
+
+		task.wait(0.5)
+		if flags["Exclusive.Fake Flowstate"] and character.Parent then
+			character:SetAttribute("Flowstate", true)
+		end
+	end
+
+	if localPlayer.Character then
+		task.spawn(setupForCharacter, localPlayer.Character)
+	end
+
+	table.insert(connections, localPlayer.CharacterAdded:Connect(function(character)
+		task.spawn(setupForCharacter, character)
+	end))
+
+	local baseDestroy = Hub.destroy
+
+	function Hub.destroy()
+		for _, conn in pairs(state.conns) do
+			conn:Disconnect()
+		end
+		baseDestroy()
+	end
+end
+
+setupFakePerks()
 
 -- ESP. Your logic, connected to the ESP tab. Trap and pumpkin are new.
 local function setupEsp()
@@ -4242,6 +4553,130 @@ local function setupVeilAim()
 end
 
 setupVeilAim()
+
+-- AIM LOCK (DASH HIDDEN). Your logic, connected to the Killer tab.
+local function setupDashHidden()
+	local runService = game:GetService("RunService")
+
+	local state = { isAimLocking = false, currentTarget = nil, lockTimerThread = nil, lastLockTime = 0 }
+
+	local function getClosestTarget()
+		local myCharacter = localPlayer.Character
+		local myRoot = myCharacter and myCharacter:FindFirstChild("HumanoidRootPart")
+		if not myRoot then
+			return nil
+		end
+
+		local closest, shortest = nil, math.huge
+
+		for _, player in ipairs(playersService:GetPlayers()) do
+			if player ~= localPlayer and player.Team and player.Team.Name == "Survivors" and player.Character then
+				local targetRoot = player.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+				local isDowned = player.Character:GetAttribute("Knocked") == true or player.Character:GetAttribute("IsHooked") == true
+
+				if targetRoot and humanoid and humanoid.Health > 0 and not isDowned then
+					local distance = (myRoot.Position - targetRoot.Position).Magnitude
+					if distance < shortest and distance < flags["Killer.Dash Lock Range"] then
+						shortest, closest = distance, player.Character
+					end
+				end
+			end
+		end
+
+		return closest
+	end
+
+	local function triggerDashLock()
+		if not flags["Killer.Dash Lock"] then
+			return
+		end
+		if state.isAimLocking then
+			return
+		end
+		if tick() - state.lastLockTime < 0.2 then
+			return
+		end
+
+		local myTeam = localPlayer.Team
+		if not myTeam or not string.find(string.lower(myTeam.Name), "iller") then
+			return
+		end
+
+		state.lastLockTime = tick()
+		state.currentTarget = getClosestTarget()
+
+		if state.currentTarget and state.currentTarget:FindFirstChild("HumanoidRootPart") then
+			state.isAimLocking = true
+
+			if state.lockTimerThread then
+				task.cancel(state.lockTimerThread)
+			end
+
+			state.lockTimerThread = task.delay(flags["Killer.Dash Lock Duration"], function()
+				state.isAimLocking = false
+				state.currentTarget = nil
+				state.lockTimerThread = nil
+			end)
+		end
+	end
+
+	local function updateDashLock()
+		if state.isAimLocking and state.currentTarget and state.currentTarget:FindFirstChild("HumanoidRootPart") then
+			local camera = workspace.CurrentCamera
+			if not camera then
+				return
+			end
+
+			local targetPosition = state.currentTarget.HumanoidRootPart.Position
+			local newCFrame = CFrame.lookAt(camera.CFrame.Position, targetPosition)
+			camera.CFrame = camera.CFrame:Lerp(newCFrame, 0.6)
+		else
+			state.isAimLocking = false
+		end
+	end
+
+	table.insert(connections, userInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then
+			return
+		end
+		if input.UserInputType == Enum.UserInputType.MouseButton2 then
+			triggerDashLock()
+		end
+	end))
+
+	-- Hooks the mobile killer dash button, re-scanning for newly spawned GUIs.
+	task.spawn(function()
+		local mobNames = { "Hidden-mob", "Slasher-mob", "Masked-mob", "Abysswalker-mob" }
+
+		while gui.Parent do
+			task.wait(0.1)
+			local playerGui = localPlayer:FindFirstChild("PlayerGui")
+			if playerGui then
+				for _, mobName in ipairs(mobNames) do
+					local mob = playerGui:FindFirstChild(mobName)
+					local controls = mob and mob:FindFirstChild("Controls")
+					local moveButton = controls and controls:FindFirstChild("move2")
+
+					if moveButton and moveButton:IsA("GuiButton") and not moveButton:GetAttribute("DashHooked") then
+						moveButton:SetAttribute("DashHooked", true)
+						table.insert(connections, moveButton.InputBegan:Connect(function(input)
+							if input.UserInputType == Enum.UserInputType.Touch or input.UserInputType == Enum.UserInputType.MouseButton1 then
+								triggerDashLock()
+							end
+						end))
+					end
+				end
+			end
+		end
+	end)
+
+	table.insert(connections, runService.RenderStepped:Connect(function()
+		pcall(updateDashLock)
+	end))
+end
+
+setupDashHidden()
 
 -- VEIL SPEAR SILENT (v2). Your logic: FOV-radius targeting, aura-aware ballistics,
 -- auto predict, and Drawing-based FOV/tracker visuals. Replaces the old Silent card.
